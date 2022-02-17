@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+:root {
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  --dark-blue: hsl(234, 12%, 34%);
+  --grayish-blue: hsl(229, 6%, 66%);
+  --light-gray: hsl(0, 0%, 98%);
+  --header-title: clamp(1.60rem, 1.32rem + 1.20vw, 2.40rem);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*BORDER COLORS*/ 
+
+.cyan {
+  border-top: 4px solid var(--cyan);
+}
+
+.red {
+  border-top: 4px solid var(--red);
+}
+
+.orange {
+  border-top: 4px solid var(--orange);
+}
+
+.blue {
+  border-top: 4px solid var(--blue);
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--grayish-blue);
+  background-color: var(--light-gray);
+  padding: 4rem 1.5rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 1.6rem;
+  font-weight: 200;
+  color: var(--dark-blue);
+}
+
+h1 span {
+  font-weight: 600;
+}
+
+header > p {
+  line-height: 1.7em;
+  max-width: 500px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+  max-width: 350px;
+  min-height: 220px;
+  padding: 1.2em 2em 2em 2.2em;
+  margin: 2rem 0;
+  border-radius: 5px;
+  box-shadow: 0 .4rem 2rem .1rem hsla(234, 12%, 34%, .2);
+}
+
+h2 {
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: var(--dark-blue);
+  margin: .3em 0;
+}
+
+.card > p {
+  font-size: .86rem;
+  margin: 0;
+  padding: 0;
+}
+
+.card > img {
+  width: 55px;
+  align-self: flex-end;
+  margin-top: auto;
+}
+
+@media screen and (min-width: 768px) {
+
+  section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  header {
+    margin-bottom: 3rem;
+  }
+
+  h1 {
+    font-size: var(--header-title);
+  }
+
+  header > p {
+    margin: 0;
+  }
+
+  .col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    margin: 1rem 0;
+  }
+
+}
