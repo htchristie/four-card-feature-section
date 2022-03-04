@@ -26,7 +26,7 @@ Users should be able to:
 <img src="https://user-images.githubusercontent.com/84540148/154401527-9f62f3d7-061b-4c7b-9090-e76047a1c364.png" height="600">
 
 #### Tablet and Mobile
-<img src="https://user-images.githubusercontent.com/84540148/154401817-a0093105-cd25-406b-a19e-c95ae03bd877.png" height="700"> <img src="https://user-images.githubusercontent.com/84540148/154401625-494b39e9-8355-43e6-b3e0-08b952a14a9f.png" height="700"> 
+<img src="https://user-images.githubusercontent.com/84540148/154401817-a0093105-cd25-406b-a19e-c95ae03bd877.png" height="600"> <img src="https://user-images.githubusercontent.com/84540148/154401625-494b39e9-8355-43e6-b3e0-08b952a14a9f.png" height="600"> 
 
 ### Links
 
